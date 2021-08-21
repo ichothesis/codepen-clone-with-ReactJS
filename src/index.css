@@ -35,3 +35,11 @@ body {
 .CodeMirror {
   height: 100% !important;
 }
+
+.editor-container.collapsed {
+  flex-grow: 0;
+}
+
+.editor-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+}
